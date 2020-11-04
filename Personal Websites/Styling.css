@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-text{
+	text-align: center;
+  	position: absolute;
+ 	top: 70%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+  	color: white;
+	background-color: rgba(192,192,192,0.6);
+	padding: 10px 30px;
+}
+	
+.main-background{
+	background-image: url(file:///C:/Users/Admin/Documents/Unnamed%20Site%202/IMG_7607.JPG);
+	background-color: #cccccc;
+  	height: 930px;
+  	background-position: center;
+  	background-repeat:no-repeat;
+  	background-size: cover;
+	background-attachment:scroll;
+  	position: relative;
+}
+
+
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+
